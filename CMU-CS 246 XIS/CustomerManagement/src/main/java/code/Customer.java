@@ -114,6 +114,7 @@ public class Customer {
         y = sc.nextInt();
         DayMonthYearsAdds.setYear(y);
         sc.nextLine();
+        
     }
 
     public void output() {
