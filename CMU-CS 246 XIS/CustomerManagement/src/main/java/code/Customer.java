@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.customermanagement;
+package code;
 
 import java.util.Date;
 
@@ -104,12 +104,15 @@ public class Customer {
         sc.nextLine();
         System.out.println("Enter Day");
         d = sc.nextInt();
+        DayMonthYearsAdds.setDate(d);
         sc.nextLine();
         System.out.println("Enter Month");
         m = sc.nextInt();
+        DayMonthYearsAdds.setMonth(m);
         sc.nextLine();
         System.out.println("Enter Year");
         y = sc.nextInt();
+        DayMonthYearsAdds.setYear(y);
         sc.nextLine();
     }
 
